@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contact</title>
 </head>
 <body>
     <h1>Contact Us</h1>
@@ -12,15 +12,16 @@
 
     <!-- Name -->
     <label>Name:</label><br>
-    <input type="text" name="name"><br><br>
+    <input type="text" name="name" placeholder="enter your name" required><br><br>
 
     <!-- Mobile Number -->
-    <label>Mobile Number:</label><br>
-    <input type="tel" name="mobile"><br><br>
+     <label>Mobile Number:</label><br>
+    <input type="tel" name="mobile"  maxlength="10" size="30" placeholder="enter your mobile number" required><br><br>
 
     <!-- Dropdown -->
     <label>Type of Communication:</label><br>
     <select name="communication">
+        <option value="select">select</option>
         <option value="sales">Sales</option>
         <option value="service">Service</option>
         <option value="enquiry">Enquiry</option>
@@ -31,7 +32,7 @@
 
     <!-- Description -->
     <label>Description:</label><br>
-    <textarea rows="5" cols="50"></textarea><br><br>
+    <textarea rows="5" cols="50" required></textarea><br><br>
 
     <button type="submit">Submit</button>
 </form>
@@ -39,6 +40,7 @@
 <p>
     <a href="newslistingpage.html">Back to Home</a>
 </p>
+<a href="newslistingpage.html"><img src="https://media.istockphoto.com/id/2172494039/photo/business-help-desk.jpg?s=612x612&w=0&k=20&c=_Iay3_NildwBpTJK0SXEcrXPhoaf7r8lBwYwo9VU9vE=" alt="" height="200px" width="200px"></a>
 
 </body>
 </html>
